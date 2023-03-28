@@ -1,7 +1,14 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
 html, body {
+    height: 100%;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*Background com degradê*/
+body {
+    background-image: linear-gradient(to top, #000000, #151a21, #161b22);
+    color: white!important;
 }
 
 h1:focus {

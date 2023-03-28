@@ -1,0 +1,34 @@
+﻿@page "/login"
+
+<LogoName/>
+
+<div class="form-login justify-content-center">
+    <div class="d-block">
+        <i class="bi bi-person-fill d-inline-block"></i>
+		<input name="username_login" type="text" placeholder="Username" class="d-inline-block shadow-none" />
+    </div>
+    
+    <div class="d-block">
+		<i class="bi bi-lock-fill d-inline-block"></i>
+		<input name="password_login" type="password" placeholder="Password" class="d-inline-block shadow-none" />
+    </div>
+
+    <button class="btn btn-primary bt-login">SIGN IN</button>
+
+</div>
+
+<div class="link-cadastro justify-content-center">
+    <span>Don't have an account?<br /><a href="/sign-up">Sign up</a></span>
+</div>
+
+<style>
+
+.logo-name {
+    margin-top: 10px;
+}
+
+.logo-name > img {
+    width: 200px;
+}
+
+</style>

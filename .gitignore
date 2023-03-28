@@ -1,0 +1,11 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/LiveStats/.vs
+/LiveStats/LiveStats/bin/Debug/net6.0
+/LiveStats/LiveStats/obj/Debug/net6.0/build-gz
+/LiveStats/LiveStats/obj/Debug/net6.0/ref
+/LiveStats/LiveStats/obj/Debug/net6.0
+/LiveStats/LiveStats/obj/
