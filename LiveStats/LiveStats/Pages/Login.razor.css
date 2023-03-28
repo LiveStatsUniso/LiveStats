@@ -1,0 +1,8 @@
+﻿/* LOGO */
+.logo {
+    margin-top:30px;
+}
+
+.logo > img {
+    width:60%;
+}
