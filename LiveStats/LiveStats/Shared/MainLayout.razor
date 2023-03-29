@@ -4,7 +4,11 @@
 @* Verificação para desabilitar o menu lateral na página de login *@
 @{
     bool showSideBar = true;
+<<<<<<< HEAD
     if (Navigation.Uri.Contains("/login") || Navigation.Uri.Contains("/sign-up"))
+=======
+    if (Navigation.Uri.Contains("/login"))
+>>>>>>> 57e221c1eee114376f3c579326957de7599aac22
     {
         showSideBar = false;
     }

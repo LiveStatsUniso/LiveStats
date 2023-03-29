@@ -7,8 +7,12 @@ html, body {
 
 /*Background com degradê*/
 body {
+<<<<<<< HEAD
     background-image: linear-gradient(to top, #000000, #151a21, #161b22);
     color: white!important;
+=======
+    background-image: linear-gradient(to top, #000000, #151a21, #161b22)
+>>>>>>> 57e221c1eee114376f3c579326957de7599aac22
 }
 
 h1:focus {

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿/* INPUT */
 input {
     box-shadow: none;
@@ -75,3 +76,13 @@ i {
     font-size: 1.05em;
     color: rgba(255,255,255,0.9);
 }
+=======
+﻿/* LOGO */
+.logo {
+    margin-top:30px;
+}
+
+.logo > img {
+    width:60%;
+}
+>>>>>>> 57e221c1eee114376f3c579326957de7599aac22
