@@ -1,0 +1,57 @@
+﻿@page "/sign-up"
+
+<LogoOnly/>
+<h1 class="d-block">Create account</h1>
+<div class="form-login justify-content-center">
+    <div class="d-block">
+        <i class="bi bi-person-fill d-inline-block"></i>
+        <input name="username_signup" type="text" placeholder="Username" class="d-inline-block shadow-none" />
+    </div>
+
+    <div class="d-block">
+        <i class="bi bi-person-fill d-inline-block"></i>
+        <input name="name_signup" type="text" placeholder="Name" class="d-inline-block shadow-none" />
+    </div>
+
+    <div class="d-block">
+        <i class="bi bi-person-fill d-inline-block"></i>
+        <input name="lastname_signup" type="text" placeholder="Last name" class="d-inline-block shadow-none" />
+    </div>
+
+    <div class="d-block">
+        <i class="bi bi-envelope d-inline-block"></i>
+        <input name="email_signup" type="email" placeholder="Email" class="d-inline-block shadow-none" />
+    </div>
+
+    <div class="d-block">
+        <i class="bi bi-lock-fill d-inline-block"></i>
+        <input name="password_signup" type="password" placeholder="Password" class="d-inline-block shadow-none" />
+    </div>
+
+    <div class="d-block">
+        <i class="bi bi-lock-fill d-inline-block"></i>
+        <input name="password2_signup" type="password" placeholder="Confirm password" class="d-inline-block shadow-none" />
+    </div>
+
+    <button class="btn btn-primary bt-signup">Register</button>
+
+    <a href="/login">
+        <div class="d-block bt-back">
+            <i class="bi bi-arrow-left d-inline-block"></i><p class="d-inline-block">Back</p>
+        </div>
+    </a>
+
+
+</div>
+
+<style>
+
+.logo {
+    margin-top: 5px;
+}
+
+.logo > img {
+    width: 100px;
+}
+
+</style>
