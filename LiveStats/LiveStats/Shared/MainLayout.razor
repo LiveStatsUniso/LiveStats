@@ -1,7 +1,7 @@
 ﻿@inherits LayoutComponentBase
 @inject NavigationManager Navigation
 
-@* Verificação para desabilitar o menu lateral na página de login *@
+@* Verificação para desabilitar o menu lateral na página de login. Matheus Fragoso 28/03/23*@
 @{
     bool showSideBar = true;
     if (Navigation.Uri.Contains("/login") || Navigation.Uri.Contains("/sign-up"))
@@ -14,9 +14,9 @@
     
     @if(showSideBar)
     {
-        <div class="sidebar">
+        @*<div class="sidebar">
             <NavMenu />
-        </div>
+        </div>*@
     }
         <main>
             @*<div class="top-row px-4">
