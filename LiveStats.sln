@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveStats.Frontend", "LiveStats.Frontend\LiveStats.Frontend.csproj", "{950182C6-162A-41CF-B890-9390C50E0A17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveStats.Backend", "LiveStats.Backend\LiveStats.Backend.csproj", "{0BE0EED6-EF7D-4037-8E58-E2C2BAA9DAC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveStats.Backend", "LiveStats.Backend\LiveStats.Backend.csproj", "{0BE0EED6-EF7D-4037-8E58-E2C2BAA9DAC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveStats.Shared", "LiveStats.Shared\LiveStats.Shared.csproj", "{E340F50F-BA79-430F-87F4-38C939E974DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0BE0EED6-EF7D-4037-8E58-E2C2BAA9DAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BE0EED6-EF7D-4037-8E58-E2C2BAA9DAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BE0EED6-EF7D-4037-8E58-E2C2BAA9DAC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E340F50F-BA79-430F-87F4-38C939E974DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E340F50F-BA79-430F-87F4-38C939E974DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E340F50F-BA79-430F-87F4-38C939E974DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E340F50F-BA79-430F-87F4-38C939E974DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
