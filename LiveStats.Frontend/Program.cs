@@ -1,4 +1,4 @@
-using LiveStats;
+using LiveStats.Frontend;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
